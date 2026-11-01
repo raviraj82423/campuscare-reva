@@ -1,0 +1,13 @@
+{
+  "name": "campuscare",
+  "version": "1.0.0",
+  "description": "CampusCare - REVA University grievance management portal",
+  "private": true,
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node server/index.js",
+    "create-admin": "node server/cli.js create-admin",
+    "seed-demo": "node server/cli.js seed-demo",
+    "test": "node --test test/api.test.js"
+  }
+}

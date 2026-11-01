@@ -1,0 +1,9 @@
+services:
+  campuscare:
+    build: .
+    ports: ["3000:3000"]
+    environment:
+      REQUIRE_VERIFICATION: "false"
+    volumes: ["campuscare-data:/data"]
+volumes:
+  campuscare-data:
