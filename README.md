@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # CampusCare — REVA University Grievance Portal
 
 Full-stack version of the original single-file prototype. The original UI (`public/index.html`) is preserved; its
@@ -56,7 +56,7 @@ Other: `GET /api/config`, `GET /api/public/stats`, `GET /api/attachments/:id`.
 * Admin analytics lacks a date-range picker (API supports `from`/`to`); the department filter applies to the charts.
 * Subcategory, block/floor and contact preference fields are not in the form yet (API accepts `subcategory`).
 * The UI was exercised in headless Chromium for the main flows, but with CDN assets blocked, so styling, charts and mobile layout were **not** visually verified.
-=======
+
 # campuscare-reva
 Smart Campus Complaint and Grievance Management System for REVA University with student dashboards, complaint tracking, status updates, and administrative analytics.
->>>>>>> a2057f184a5eb38af79c8451bf22dddab9375db4
+a2057f184a5eb38af79c8451bf22dddab9375db4
